@@ -230,6 +230,16 @@
         }
       },
       closeMenu() {
+        let menuContentComponent = this.$refs.menu.$children.find(
+          function(element) {
+            return typeof (element.highlighted !== 'undefined');
+          }
+        );
+  
+        if (menuContentComponent) {
+          menuContentComponent.highlighted = false;
+        }
+
         this.$refs.menu.close();
       },
       updateValues(value) {
@@ -254,11 +264,8 @@
         return true;
       },
       contentFireClick() {
-        console.log('test');
-        window.th = this;
         this.menuContent = document.body.querySelector('.md-autocomplete-content');
-        window.menuContent = this.menuContent;
-        debugger;
+
         if (this.menuContent === null ||
             this.menuContent.__vue__.highlighted === false ||
             this.menuContent.__vue__.highlighted < 1) {
@@ -267,8 +274,7 @@
 
           return false;
         }
-        console.log('highlighted => ', this.menuContent.__vue__.highlighted - 1 );
-        window.children1 = this.menuContent.__vue__.$children[0];
+
         let index = this.menuContent.__vue__.$children[0].$children[
           this.menuContent.__vue__.highlighted - 1].index;
 

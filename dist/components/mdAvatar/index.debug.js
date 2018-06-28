@@ -227,22 +227,7 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 100:
-/***/ (function(module, exports) {
-
-module.exports = ".THEME_NAME.md-avatar.md-primary.md-avatar-icon {\n  background-color: PRIMARY-COLOR; }\n  .THEME_NAME.md-avatar.md-primary.md-avatar-icon .md-icon {\n    color: PRIMARY-CONTRAST-0.99999; }\n\n.THEME_NAME.md-avatar.md-accent.md-avatar-icon {\n  background-color: ACCENT-COLOR; }\n  .THEME_NAME.md-avatar.md-accent.md-avatar-icon .md-icon {\n    color: ACCENT-CONTRAST-0.99999; }\n\n.THEME_NAME.md-avatar.md-warn.md-avatar-icon {\n  background-color: WARN-COLOR; }\n  .THEME_NAME.md-avatar.md-warn.md-avatar-icon .md-icon {\n    color: WARN-CONTRAST-0.99999; }\n"
-
-/***/ }),
-
-/***/ 449:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(95);
-
-
-/***/ }),
-
-/***/ 95:
+/***/ 110:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -253,11 +238,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = install;
 
-var _mdAvatar = __webpack_require__(96);
+var _mdAvatar = __webpack_require__(111);
 
 var _mdAvatar2 = _interopRequireDefault(_mdAvatar);
 
-var _mdAvatar3 = __webpack_require__(100);
+var _mdAvatar3 = __webpack_require__(115);
 
 var _mdAvatar4 = _interopRequireDefault(_mdAvatar3);
 
@@ -272,19 +257,19 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 96:
+/***/ 111:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(97)
+  __webpack_require__(112)
 }
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(98),
+  __webpack_require__(113),
   /* template */
-  __webpack_require__(99),
+  __webpack_require__(114),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -317,14 +302,14 @@ module.exports = Component.exports
 
 /***/ }),
 
-/***/ 97:
+/***/ 112:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ 98:
+/***/ 113:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -356,7 +341,7 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 99:
+/***/ 114:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -372,6 +357,21 @@ if (false) {
      require("vue-hot-reload-api").rerender("data-v-4fb5ecf8", module.exports)
   }
 }
+
+/***/ }),
+
+/***/ 115:
+/***/ (function(module, exports) {
+
+module.exports = ".THEME_NAME.md-avatar.md-primary.md-avatar-icon {\n  background-color: PRIMARY-COLOR; }\n  .THEME_NAME.md-avatar.md-primary.md-avatar-icon .md-icon {\n    color: PRIMARY-CONTRAST-0.99999; }\n\n.THEME_NAME.md-avatar.md-accent.md-avatar-icon {\n  background-color: ACCENT-COLOR; }\n  .THEME_NAME.md-avatar.md-accent.md-avatar-icon .md-icon {\n    color: ACCENT-CONTRAST-0.99999; }\n\n.THEME_NAME.md-avatar.md-warn.md-avatar-icon {\n  background-color: WARN-COLOR; }\n  .THEME_NAME.md-avatar.md-warn.md-avatar-icon .md-icon {\n    color: WARN-CONTRAST-0.99999; }\n"
+
+/***/ }),
+
+/***/ 449:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(110);
+
 
 /***/ })
 

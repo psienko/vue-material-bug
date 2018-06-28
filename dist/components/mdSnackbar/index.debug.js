@@ -323,7 +323,7 @@ var _uniqueId = __webpack_require__(36);
 
 var _uniqueId2 = _interopRequireDefault(_uniqueId);
 
-var _transitionEndEventName = __webpack_require__(42);
+var _transitionEndEventName = __webpack_require__(46);
 
 var _transitionEndEventName2 = _interopRequireDefault(_transitionEndEventName);
 
@@ -604,7 +604,7 @@ module.exports = exports["default"];
 
 /***/ }),
 
-/***/ 42:
+/***/ 46:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";

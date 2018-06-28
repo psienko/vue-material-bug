@@ -227,7 +227,7 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 160:
+/***/ 175:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -238,11 +238,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = install;
 
-var _mdCheckbox = __webpack_require__(161);
+var _mdCheckbox = __webpack_require__(176);
 
 var _mdCheckbox2 = _interopRequireDefault(_mdCheckbox);
 
-var _mdCheckbox3 = __webpack_require__(165);
+var _mdCheckbox3 = __webpack_require__(180);
 
 var _mdCheckbox4 = _interopRequireDefault(_mdCheckbox3);
 
@@ -257,19 +257,19 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 161:
+/***/ 176:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(162)
+  __webpack_require__(177)
 }
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(163),
+  __webpack_require__(178),
   /* template */
-  __webpack_require__(164),
+  __webpack_require__(179),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -302,14 +302,14 @@ module.exports = Component.exports
 
 /***/ }),
 
-/***/ 162:
+/***/ 177:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ 163:
+/***/ 178:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -402,7 +402,7 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 164:
+/***/ 179:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -459,7 +459,7 @@ if (false) {
 
 /***/ }),
 
-/***/ 165:
+/***/ 180:
 /***/ (function(module, exports) {
 
 module.exports = ".THEME_NAME.md-checkbox.md-checked .md-checkbox-container {\n  background-color: ACCENT-COLOR;\n  border-color: ACCENT-COLOR; }\n  .THEME_NAME.md-checkbox.md-checked .md-checkbox-container:after {\n    border-color: ACCENT-CONTRAST; }\n\n.THEME_NAME.md-checkbox .md-ink-ripple {\n  color: ACCENT-COLOR; }\n\n.THEME_NAME.md-checkbox .md-ripple {\n  opacity: .26; }\n\n.THEME_NAME.md-checkbox.md-primary.md-checked .md-checkbox-container {\n  background-color: PRIMARY-COLOR;\n  border-color: PRIMARY-COLOR; }\n  .THEME_NAME.md-checkbox.md-primary.md-checked .md-checkbox-container:after {\n    border-color: PRIMARY-CONTRAST; }\n\n.THEME_NAME.md-checkbox.md-primary .md-ink-ripple {\n  color: PRIMARY-COLOR; }\n\n.THEME_NAME.md-checkbox.md-warn.md-checked .md-checkbox-container {\n  background-color: WARN-COLOR;\n  border-color: WARN-COLOR; }\n  .THEME_NAME.md-checkbox.md-warn.md-checked .md-checkbox-container:after {\n    border-color: WARN-CONTRAST; }\n\n.THEME_NAME.md-checkbox.md-warn .md-ink-ripple {\n  color: WARN-COLOR; }\n\n.THEME_NAME.md-checkbox.md-disabled.md-checked .md-checkbox-container {\n  background-color: rgba(0, 0, 0, 0.26);\n  border-color: transparent; }\n\n.THEME_NAME.md-checkbox.md-disabled:not(.md-checked) .md-checkbox-container {\n  border-color: rgba(0, 0, 0, 0.26); }\n"
@@ -469,7 +469,7 @@ module.exports = ".THEME_NAME.md-checkbox.md-checked .md-checkbox-container {\n 
 /***/ 455:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(160);
+module.exports = __webpack_require__(175);
 
 
 /***/ })
