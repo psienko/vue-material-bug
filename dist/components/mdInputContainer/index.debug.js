@@ -1172,7 +1172,8 @@ exports.default = {
 
         return false;
       }
-
+      console.log('highlighted => ', this.menuContent.__vue__.highlighted - 1);
+      window.children1 = this.menuContent.__vue__.$children[0];
       var index = this.menuContent.__vue__.$children[0].$children[this.menuContent.__vue__.highlighted - 1].index;
 
       this.isItemSelected = 1;
