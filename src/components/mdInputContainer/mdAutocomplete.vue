@@ -254,8 +254,10 @@
         return true;
       },
       contentFireClick() {
+        console.log('test');
         this.menuContent = document.body.querySelector('.md-autocomplete-content');
-
+        window.menuContent = this.menuContent;
+        debugger;
         if (this.menuContent === null ||
             this.menuContent.__vue__.highlighted === false ||
             this.menuContent.__vue__.highlighted < 1) {
