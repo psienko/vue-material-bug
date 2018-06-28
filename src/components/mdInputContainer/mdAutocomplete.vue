@@ -255,6 +255,7 @@
       },
       contentFireClick() {
         console.log('test');
+        window.th = this;
         this.menuContent = document.body.querySelector('.md-autocomplete-content');
         window.menuContent = this.menuContent;
         debugger;
